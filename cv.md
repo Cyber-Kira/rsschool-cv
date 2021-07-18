@@ -61,3 +61,21 @@ This is kata from [CodeWars](https://www.codewars.com/users/Cyber-Kira).
       
       return numbersArray.findIndex(isOdd) + 1;
     }
+
+## Education and courses
+
+I was studyin web development at "*Don College of Information Technologies*".
+
+I also learn a lot from **Hexlet** and **HTML Academy**.
+
+I always watching some lections on youtube. Here is the last videos i watched:
+
+- [Simple Made Easy](https://www.youtube.com/watch?v=eWbPLSJZ5Zw)
+- [How bad is Exponential Growth?](https://www.youtube.com/watch?v=fpkQ_ZqZY4o&t)
+- [SOLID from Katerina Trajchevska](https://www.youtube.com/watch?v=rtmFCcjEgEw)
+
+## English
+
+I am always trying to improve my English by constantly watching videos, reading and listening.
+
+I also have [EF SET CERTIFICATE](https://www.efset.org/cert/hLfmwn) that says that my level is C1. I rate myself as B1-B2 though.
