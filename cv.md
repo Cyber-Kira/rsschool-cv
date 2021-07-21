@@ -10,20 +10,11 @@ Phone number: **+7 (958) 664-99-24**
 
 
 
-Hey, my name is Kirill and i am a junior front-end web developer.
+Motivated and passionate about programming and everything that comes with it.
 
-I want to get a job at IT company since programming was my hobby from a young age.
+Worked with JavaScript, React and C# for past 3 years.
 
-I was working as a trainee for a summer break and it was my first job at IT.
-
-Although my experience was not that long i still learned about
-CMS (Bitrix, Wordpress) and Jira.
-
-But since my goal was to become a React Web Developer i quit the job and continue my studying at college.
-
-For now i am working in Moscow as a tech support specialist, and although i learn a lot of technical things about networking, i want to get a job as a React Web Developer.
-
-I also trying to participate in any IT activities and speeches so i was a member of WordSkills Russia.
+Participating in IT activities, was a member of WorldSkills Russia.
 
 
 
