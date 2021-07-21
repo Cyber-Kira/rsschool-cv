@@ -6,9 +6,7 @@ Phone number: **+7 (958) 664-99-24**
 
 
 
-## My story so far
-
-
+## About Me
 
 Motivated and passionate about programming and everything that comes with it.
 
@@ -17,6 +15,25 @@ Worked with JavaScript, React and C# for past 3 years.
 Participating in IT activities, was a member of WorldSkills Russia.
 
 
+## Working Experience
+
+---
+
+July - August 2020
+
+Cetera Labs, Trainee
+
+Worked with 1C Bitrix, Wordpress, PHP, JavaScript.
+
+---
+
+July 2021 - Now
+
+Medscan, IT Support
+
+Working with Active Directory, Server Administration.
+
+---
 
 ## My skills:
 
@@ -34,7 +51,6 @@ Testing:
 
 Module bundling:
 * Webpack
-
 
 
 ## Code example
