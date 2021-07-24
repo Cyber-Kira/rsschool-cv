@@ -5,22 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="./images/favicons/curriculum.png" type="image/png">
+  <link rel="stylesheet" href="./styles/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kirill Koloskov</title>
 </head>
 
 <body>
-  <header>
-    <section>
+  <header class="header wrapper">
+    <section class="header-profile">
       <figure>
-        <h1>Kirill Koloskov</h1>
-        <img src="./images/content/me.jpg" width="200" height="200" alt="Me inside of a library">
+        <h1 class="header-profile__name">Kirill Koloskov</h1>
+        <img class="header-profile__picture" src="./images/content/me.jpg" width="200" height="200"
+          alt="Me inside of a library">
       </figure>
       <p>Web Developer</p>
-      <h2>Contact Info</h2>
+    </section>
+    <section class="header-info">
+      <h2 class="header-info__name">Contact</h2>
       <ul>
         <li>
-          <p>E-mail: <a href="mailto:kirillkoloskovm@gmail.com">kirillkoloskovm@gmail.com</a></p>
+          <p>E-mail: <a href="mailto:kirillkoloskovm@gmail.com">kirillkoloskovm@gmail.com</a>
+          </p>
         </li>
         <li>
           <p>GitHub: <a href="https://github.com/Cyber-Kira">Cyber-Kira</a></p>
@@ -35,7 +40,7 @@
     </section>
   </header>
 
-  <main>
+  <main class="wrapper">
     <section>
       <h2>About Me</h2>
       <p>Motivated and passionate about programming and everything that comes with it.</p>
@@ -109,7 +114,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="wrapper">
     My <a href="https://github.com/Cyber-Kira">GitHub</a>
     <p>Created in 2021</p>
     <a href="https://rs.school/js/">The Rolling Scopes School</a>
