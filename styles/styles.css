@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+  --first-color: #6460cc;
+  --second-color: #102a85;
+  --body-color: #e0d0c2;
+  --title-color: #1C1C22;
+  --text-color: #58576B;
+
+  --body-font: 'Montserrat', sans-serif;
+  --normal-font-size: 1.0625rem;
+  --h1-font-size: 1.725rem;
+  --h2-font-size: 1.125rem;
+  --small-font-size: .75rem;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --normal-font-size: 1.125rem;
+    --h1-font-size: 1.7rem;
+    --h2-font-size: 1.25rem;
+    --small-font-size: .813rem;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-top: .5em;
+  margin-left: 1em;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  margin-bottom: .6em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+a:hover {
+  color: var(--second-color);
+  transition: all .3s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-profile {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header-profile__picture {
+  border-radius: 8px;
+}
+
+.header-profile__name {
+  align-self: flex-start;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  text-align: left;
+  font-size: 1.325rem;
+  font-weight: 900;
+  transition: all .6s;
+}
+
+.link::before {
+  margin-right: 1rem;
+  font-size: var(--h1-font-size);
+}
+
+
+
+@media screen and (min-width: 968px) {
+  .wrapper {
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2em;
+    row-gap: 2em;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 968px) {
+
+  .header {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .header-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-info__name {
+    display: flex;
+
+    align-self: flex-start;
+  }
+}
